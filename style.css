@@ -1,0 +1,69 @@
+@font-face { 
+    font-family: 'vazir';
+    src: url('fonts/vazir.eot') format('eot');
+    src: url('fonts/vazir.ttf') format('truetype');
+    src: url('fonts/vazir.woff') format('woff');
+    src: url('fonts/vazir.woff') format('woff');
+ }
+ *{
+     padding: 0;
+     margin: 0;
+     outline: none;
+ }
+ body{
+     direction: rtl;
+     font-family: 'vazir';
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+ }
+ .container{
+     width: 100%;
+     height: 100%;
+     display: flex;
+     text-align: center;
+     align-items: center;
+     justify-content: center;
+     background-color: rgba(8, 7, 8, 0.938);
+     background-image: url(img/p404.png);
+     
+ }
+ .container .content{
+     width: 700px;
+     margin: 0 auto;
+     text-align: center;
+ }
+ .container .content h2{
+    font-size: 350px;
+    color: rgba(255, 255, 255, 0.171);
+    font-weight: 900;
+    margin-top: -30px;
+ }
+ .container .content h4{
+     font-size: 30px;
+     color: #fff;
+     margin-top: -100px;
+     position: relative;
+ }
+ .container .content p{
+     font-size: 10px;
+     color: rgba(204, 204, 204, 0.74);
+     margin-top: 10px;
+     margin-bottom: 20px;
+ }
+ .container .content a{
+     background-color: rgba(137, 43, 226, 0.705);
+     color: #fff;
+     padding: 10px 70px;
+     border-radius: 5px;
+     text-decoration: none;
+     transition: all 0.5s;
+     outline: none;
+     border: none;
+ }
+ .container .content a:hover{
+    background-color: rgba(216, 212, 219, 0.171);
+
+ }
